@@ -64,7 +64,7 @@ local URL = "/"
 local function searchForKeyword(host, port)
 	
       local resp = http.get(host, port, URL)
-     local keyword = stdnse.get_script_args("aldeheme.keywords")
+     local keyword = stdnse.get_script_args("findkeywords.keywords")
      if(keyword == nil or keyword == "" or keyword == "\n" or keyword == "\n") then
 	return "empty keyword"
      end
