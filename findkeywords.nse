@@ -2,8 +2,7 @@
 
 description=[[
 
-      if want to know the installed technologies inside the network or in the cloud you can use this script.
-      if you want to search for keywords within the HTTP http response body you can use this script.
+      Searching in the HTTP response 
 
 ]]
 
